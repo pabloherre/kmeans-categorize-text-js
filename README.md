@@ -22,7 +22,7 @@ $ npm install kmeans-categorize-text
 To use k-means clustering you need to provide a dataset with objects with id and text:
 
 ```javascript
-const kMeansText = require('kMeansText');
+const kMeansText = require('kmeans-categorize-text');
 
 const dataSet = [
     {id: 1, text: "Leaves sway in the gentle breeze, crafting a soothing harmony of nature's tune" },
@@ -38,7 +38,7 @@ const dataSet = [
 ];
 const groups = 3;
 const excludeWords = ['dips']
-kMeansText(dataSet, groups, [], result => console.log(result), error => console.log(error);
+kMeansText(dataSet, groups, [], result => console.log(result), error => console.log(error));
 ```
 
 ## Output
