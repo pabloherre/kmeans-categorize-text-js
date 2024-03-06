@@ -16,7 +16,7 @@ console.log(natural.JaroWinklerDistance('not', 'same'));      // 0 (No match)
 $ npm install kmeans-categorize-text-js
 ```
 ## Usage
-To use k-means clustering you need to provide a dataset and a number value for the amount of groups:
+To use k-means clustering you need to provide a dataset with objects with id and text:
 
 ```javascript
 const kMeansText = require('kMeansText');
@@ -40,7 +40,7 @@ kMeansText(dataSet, groups, [], result => console.log(result), error => console.
 
 ## Output
 The method returns an object with the category group as the key and the array objects as values.
-```json
+```javascript
 {
   whispers: {
     '2': 'Waves collide against the shore, bearing whispers of secrets from the depths below',
