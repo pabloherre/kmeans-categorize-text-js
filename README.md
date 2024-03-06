@@ -1,5 +1,7 @@
 # Node.js text clustering - kmeans-categorize-text-js
 
+<img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+
 ## What is k-means clustering?
 K-means clustering is an unsupervised machine learning algorithm used to find groups in a dataset. The objective of k-means clustering is to divide a dataset into groups (clusters) of similar items.
 
@@ -73,5 +75,4 @@ The method returns an object with the category group as the key and the array ob
 
 ## Reference
 >[Implementing K-Means Clustering From Scratch in JavaScript](https://medium.com/geekculture/implementing-k-means-clustering-from-scratch-in-javascript-13d71fbcb31e)
-
 >[Natural string distance](https://naturalnode.github.io/natural/string_distance.html)
