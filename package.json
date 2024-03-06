@@ -1,0 +1,33 @@
+{
+  "name": "kmeans-categorize-text",
+  "version": "1.0.0",
+  "description": "K-Means to categorize texts using natural algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloherre/kmeans-categorize-text-js.git"
+  },
+  "keywords": [
+    "k-means",
+    "natural",
+    "texts"
+  ],
+  "author": "Pablo A. Herrera <pablo.a.herrera@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloherre/kmeans-categorize-text-js/issues"
+  },
+  "homepage": "https://github.com/pabloherre/kmeans-categorize-text-js#readme",
+  "dependencies": {
+    "natural": "^6.10.5",
+    "node-kmeans": "^1.1.9"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "prettier": "^3.2.5"
+  }
+}
