@@ -1,6 +1,6 @@
 {
   "name": "kmeans-categorize-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "K-Means to categorize texts using natural algorithm",
   "main": "index.js",
   "scripts": {
